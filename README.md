@@ -1,3 +1,5 @@
-# https://thefeaturedepic.github.io/Samaritan
+# Full Interface:
+## https://thefeaturedepic.github.io/Samaritan
 
-## [Beta Test](https://thefeaturedepic.github.io/Samaritan/beta.html)
+## Individual Pages:
+### [Beta Test](https://thefeaturedepic.github.io/Samaritan/beta.html)
