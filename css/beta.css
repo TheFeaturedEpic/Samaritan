@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: samaritan;
+  src: url(../fonts/magdacleanmono-bold.ttf);
+}
 html {
   height: 100vh;
   width: 100vw;
