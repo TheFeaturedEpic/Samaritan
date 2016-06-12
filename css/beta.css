@@ -1,6 +1,6 @@
 @font-face {
   font-family: samaritan;
-  src: url(fonts/magdacleanmono-bold.ttf);
+  src: url(../fonts/magdacleanmono-bold.ttf);
 }
 html {
   height: 100vh;
