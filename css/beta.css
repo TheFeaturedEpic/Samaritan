@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Inconsolata';
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(127, 127, 127, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+}
+
+#left,
+#right {
+  width: 150vw;
+  height: 400vh;
+  background-color: rgba(0, 0, 0, 0.99);
+  position: absolute;
+  top: -160vh;
+  border-radius: 100%;
+}
+
+.left-detail-circle,
+.right-detail-circle {
+  width: 150vw;
+  height: 400vh;
+  position: absolute;
+  top: -160vh;
+  border: solid thin white;
+  border-radius: 100%;
+}
+
+.right-detail-square,
+.left-detail-square {
+  width: 40vw;
+  height: 20vw;
+  position: absolute;
+  top: 20vh;
+  border: solid thin white;
+}
+
+.left-detail-square {
+  left: -38vw;
+}
+
+.right-detail-square {
+  right: -38vw;
+}
+
+#left {
+  left: -143vw;
+}
+
+.left-detail-circle {
+  left: -145vw;
+}
+
+#right {
+  right: -143vw;
+}
+
+.right-detail-circle {
+  right: -145vw;
+}
+
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  min-width: 340px;
+  height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#center.beta .top,
+#center.beta .bottom {
+  height: 30%;
+  width: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: solid thin white;
+  box-sizing: content-box;
+}
+
+#center.beta .top p,
+#center.beta .middle p {
+  text-align: left;
+  margin: 0;
+  padding-left: 3px;
+  float: left;
+}
+
+#center.beta .middle {
+  height: 30%;
+  width: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.95);
+  border: solid thin white;
+  box-sizing: content-box;
+  padding: 5px 0;
+}
+
+#center.beta .middle p {
+  color: white;
+  line-height: 24px;
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+#center.beta .middle .cursor {
+  height: 2px;
+  width: 12px;
+  border: none;
+  animation: blink-empty 0.5s infinite;
+  background-colour: transparent;
+  position: absolute;
+  bottom: 26px;
+  left: 298px;
+}
+
+@keyframes blink-empty {
+  50% {background-color: white;}
+}
+
+@media all and (max-width: 450px) {
+  #left,
+  div[class^=left-detail],
+  #right,
+  div[class^=right-detail] {
+    display: none;
+  }
+}
