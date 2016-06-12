@@ -7,7 +7,7 @@ html {
   width: 100vw;
   overflow: hidden;
   position: relative;
-  font-family: 'Inconsolata';
+  font-family: 'samaritan';
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(127, 127, 127, 1)));
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
