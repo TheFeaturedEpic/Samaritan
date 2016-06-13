@@ -14,6 +14,8 @@ html {
   background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
   background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
   background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(127, 127, 127, 1) 100%);
+  background-image: url("../Sam.png");
+  background-size: 100% 100%;
 }
 
 #left,
