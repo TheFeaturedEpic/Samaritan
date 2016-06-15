@@ -33,5 +33,13 @@
       <div class="bottom">
       </div>
     </div>
+    <script src="ie.js"></script>
+    <script>
+      window.onload = function(){
+        if(ie()) {
+          document.getElementById("body").innerHTML = "<h1>Internet Explorer is not currently supported!</h1>";
+        }
+      }
+    </script>
 </body>
 </html>
