@@ -3,7 +3,7 @@ function ie() {
     var msie = ua.indexOf("MSIE ");
 
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-        retun true;
+        return true;
     }
     else {
         return false;
